@@ -1,3 +1,0 @@
-3f923c79c3a0b33436d1fac9b2357d26bdac01334a8c9284d70be9bbc14c3c9d  readme-generator-cli_1.2.3_windows_amd64.tar.gz
-91bfb5a54431a56950f72c3b65e336de778add1ae46f3b6bdbcba23c9846fb9f  readme-generator-cli_1.2.3_darwin_amd64.tar.gz
-de45b753c226083db30df78c0c215731189e7e2c2497cad98fba57286389da6d  readme-generator-cli_1.2.3_linux_amd64.tar.gz

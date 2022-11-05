@@ -1,1 +1,1 @@
-{"project_name":"readme-generator-cli","tag":"v1.2.3","previous_tag":"v1.2.2","version":"1.2.3","commit":"672abb8e3863542d897051ed17ee5a01bdf5e0dd","date":"2022-11-06T00:05:00.020835+05:30","runtime":{"goos":"darwin","goarch":"arm64"}}
+{"project_name":"readme-generator-cli","tag":"v1.2.4","previous_tag":"v1.2.3","version":"1.2.4","commit":"69bf2edb67ce861746f0107482d99374a039e793","date":"2022-11-06T00:10:31.475217+05:30","runtime":{"goos":"darwin","goarch":"arm64"}}
