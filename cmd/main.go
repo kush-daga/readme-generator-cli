@@ -1,8 +1,9 @@
 package cmd
 
 import (
-	"errors"
 	"fmt"
+	"os"
+	"text/template"
 
 	"github.com/AlecAivazis/survey/v2"
 	"github.com/kush-daga/readme-generator/pkg/prompts"
@@ -29,26 +30,36 @@ func AppendSectionToReadme(prompt string, options ...string) (ok bool, err error
 	return true, nil
 }
 
-func CreateReadme() (ok bool, err error) {
+type data struct {
+	Title       string
+	Description string
+	Components  []string
+}
+
+func CreateReadme() (bool, error) {
 	title := prompts.StringPrompt("Please enter the title of your project", false)
 	description := prompts.StringPrompt("Please enter the description of your project", true)
 
 	components := GetReadmeComponents()
 
-	for _, ele := range components {
-		if ele == "Title & Description" {
-			_, err := AppendSectionToReadme(ele, title, description)
+	d := data{title, description, components}
 
-			if err != nil {
-				return false, errors.New("Error in writing Title and Desc to Readme File occurred: " + err.Error())
-			}
-		} else {
-			_, err := AppendSectionToReadme(ele)
+	paths := []string{
+		"./cmd/md.go.tpl",
+	}
 
-			if err != nil {
-				return false, errors.New("Error in writing " + ele + " to Readme File occurred: " + err.Error())
-			}
-		}
+	t := template.Must(template.New("md-tmpl").ParseFiles(paths...))
+	f, err := os.Create("./README.md")
+
+	if err != nil {
+		return false, err
+	}
+
+	fmt.Print(t.DefinedTemplates())
+	err = t.ExecuteTemplate(f, "md.go.tpl", d)
+
+	if err != nil {
+		return false, err
 	}
 
 	return true, nil
