@@ -1,5 +1,5 @@
 builds:
-  - binary: drum-roll
+  - binary: create-readme
     goos:
       - windows
       - darwin
