@@ -1,0 +1,29 @@
+{
+	"name": "pls-readme",
+	"version": "1.1.0",
+	"description": "A readme generator for your projects",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/kush-daga/readme-generator-cli.git"
+	},
+	"author": "Kush Daga",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/kush-daga/readme-generator-cli/issues"
+	},
+	"homepage": "https://github.com/kush-daga/readme-generator-cli#readme",
+	"dependencies": {
+		"go-npm": "^0.1.9"
+	},
+	"postinstall": "go-npm install",
+	"preuninstall": "go-npm uninstall",
+	"goBinary": {
+		"name": "create-readme",
+		"path": "./bin",
+		"url": "https://github.com/kush-daga/readme-generator-cli/releases/download/v{{version}}/myGoPackage_{{version}}_{{platform}}_{{arch}}.tar.gz"
+	}
+}
