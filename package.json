@@ -1,6 +1,6 @@
 {
 	"name": "pls-readme",
-	"version": "1.2.0",
+	"version": "1.2.1",
 	"description": "A readme generator for your projects",
 	"main": "index.js",
 	"scripts": {
