@@ -24,6 +24,6 @@
 	"goBinary": {
 		"name": "create-readme",
 		"path": "./bin",
-		"url": "https://github.com/kush-daga/readme-generator-cli/releases/download/v{{version}}/myGoPackage_{{version}}_{{platform}}_{{arch}}.tar.gz"
+		"url": "https://github.com/kush-daga/readme-generator-cli/releases/download/v{{version}}/readme_generator_cli{{version}}_{{platform}}_{{arch}}.tar.gz"
 	}
 }
