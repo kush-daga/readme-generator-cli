@@ -5,7 +5,7 @@
 class PlsReadme < Formula
   desc "Pls Readme! This allows you to create a README.md file for your projects!"
   homepage "https://github.com/homepage"
-  version "v1.2.6-next"
+  version "1.2.7"
   license "MIT"
 
   depends_on "git"
@@ -13,16 +13,16 @@ class PlsReadme < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/kush-daga/readme-generator-cli/releases/download/v1.2.6/pls-readme_v1.2.6-next_macOS_arm64.tar.gz"
-      sha256 "0eac44be29dd82dfdf7dab11abea3090ef5b6720e34c3fc74b1688b5ae7e7df1"
+      url "https://github.com/kush-daga/readme-generator-cli/releases/download/v1.2.7/pls-readme_1.2.7_macOS_arm64.tar.gz"
+      sha256 "3617ae2298cbf716fc7e4f8610f9a6976c8277d7b8f883b172e90f5a3ed172e0"
 
       def install
         bin.install "pls-readme"
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/kush-daga/readme-generator-cli/releases/download/v1.2.6/pls-readme_v1.2.6-next_macOS_x86_64.tar.gz"
-      sha256 "7efb403ef5a3edfe25e2d14e524e5eb9876e3ee29655d72a6d383d3359f28f6f"
+      url "https://github.com/kush-daga/readme-generator-cli/releases/download/v1.2.7/pls-readme_1.2.7_macOS_x86_64.tar.gz"
+      sha256 "74f1a0b712406d33b4a896e8decc3caf385aa9a7eb5a55313c99cb3b240f916d"
 
       def install
         bin.install "pls-readme"
@@ -32,8 +32,8 @@ class PlsReadme < Formula
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/kush-daga/readme-generator-cli/releases/download/v1.2.6/pls-readme_v1.2.6-next_Linux_x86_64.tar.gz"
-      sha256 "b3affe41ae6fcc898fe67829bdafe7b2787f44a151a169676e8a7e6b854b43d8"
+      url "https://github.com/kush-daga/readme-generator-cli/releases/download/v1.2.7/pls-readme_1.2.7_Linux_x86_64.tar.gz"
+      sha256 "76288ac87ce0db220225f8c0d38aa32f5c927832a7623895bd63cbfbcbc8df63"
 
       def install
         bin.install "pls-readme"

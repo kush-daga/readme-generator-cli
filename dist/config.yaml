@@ -40,10 +40,10 @@ builds:
       - amd64
       - arm64
     targets:
-      - linux_amd64_v1
       - darwin_amd64_v1
       - darwin_arm64
       - windows_amd64_v1
+      - linux_amd64_v1
     dir: .
     main: ./main.go
     binary: pls-readme

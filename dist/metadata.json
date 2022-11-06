@@ -1,1 +1,1 @@
-{"project_name":"pls-readme","tag":"v1.2.6","previous_tag":"v1.2.5","version":"v1.2.6-next","commit":"4673fc031bd950d2fe66d645d35d55c10ef59e89","date":"2022-11-06T10:46:28.261595+05:30","runtime":{"goos":"darwin","goarch":"arm64"}}
+{"project_name":"pls-readme","tag":"v1.2.7","previous_tag":"v1.2.6","version":"1.2.7","commit":"69e45eefdd3693d3823d68724667dfdc9c3ac4a7","date":"2022-11-06T10:47:39.857636+05:30","runtime":{"goos":"darwin","goarch":"arm64"}}

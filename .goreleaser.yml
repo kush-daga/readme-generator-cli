@@ -32,7 +32,7 @@ brews:
   - # GitHub/GitLab repository to push the formula to
     tap:
       owner: kush-daga
-      name: cli
+      name: "readme-generator-cli"
 
     name: pls-readme
     # Template for the url which is determined by the given Token (github or gitlab)
