@@ -1,0 +1,6 @@
+3b70d80f18d9dd11a496635d512288397b73c3c167bf4c156223133a550737e6  readme-generator-cli_1.2.5_darwin_amd64.tar.gz
+8ab14d4205225ff08c60f0766f129dfaa9e3e6bb3cac5a5201c471badc206b21  readme-generator-cli_1.2.5_darwin_arm64.tar.gz
+a6f9e83e088c0821b5b403311de26b4bb887871884fb7d5eebb981c5a20c5f48  readme-generator-cli_1.2.5_linux_arm64.tar.gz
+b5c8738e31207ab21de7a03b48277e6116b0c6f50022974fd1211755e479d0a0  readme-generator-cli_1.2.5_windows_arm64.tar.gz
+da03486fc8a85b13f18d4a0f8d23efa2f347c9ca924563ca593acfcb41cda387  readme-generator-cli_1.2.5_windows_amd64.tar.gz
+e1a16475406904dcf4aa4d93420fb21954a9ba758bec952ec7b9b95fe6d62b75  readme-generator-cli_1.2.5_linux_amd64.tar.gz
