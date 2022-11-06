@@ -80,7 +80,6 @@ archives:
         format: zip
 
     files:
-      - LICENSE
       - README.md
 
 checksum:
